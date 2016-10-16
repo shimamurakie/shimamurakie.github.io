@@ -1,0 +1,160 @@
+
+/* 基本設定 */ 
+body,td,th{
+font-size:65%;  
+color:#333333;  
+font-family:Verdana,Osaka,'MS P Gothic';
+font-weight:normal;
+margin:0px;
+padding:0px;
+}
+
+/* スクロールバーの設定 */ 
+html,body{ 
+scrollbar-base-color:#000000;
+scrollbar-track-color:#000000;
+scrollbar-face-color:#000000;
+scrollbar-arrow-color:#00aaff;
+scrollbar-3dlight-color:#000000;
+scrollbar-darkshadow-color:#000000;
+scrollbar-highlight-color:#666666;
+scrollbar-shadow-color:#666666;
+}
+
+/* リンク設定 */ 
+a:link{text-decoration:none;color:#3366cc;}/* リンクに触れる前の色 */ 
+a:visited{text-decoration:none;cursor:crosshair;color:#3366cc;}/* 訪問したことのあるリンクの色 */ 
+a:hover{text-decoration:none;cursor:crosshair;color:#cccccc;}/* 触れた時のリンク設定 */ 
+
+/* リスト設定 */ 
+ul,ol{
+list-style-position:inside;
+margin:0px 0px 0px 15px;
+} 
+
+ /* 画像のボーダーをあらかじめ０にする */
+img{border:none;}
+
+/* フォーム関連の設定 */
+textarea{
+font-size:11px;
+line-height:17px;
+padding:5px;
+}
+textarea,input{
+color:#333333;
+border:1px solid #333333;
+background-color:#ffffff;
+}
+
+/* 装飾用box */
+.box1{
+border:3px double #3399cc;
+background:#ffffff;
+}
+.box2{
+border:1px solid #3399cc;
+background:#ccffff;
+}
+.box1,.box2{width:450px;margin:15px 0px 0px 0px;padding:5px;}
+
+/* 配布元リンク */
+#copyright{font-size:10px;color:#666666;padding:3px 0px 0px 25px;}
+#copyright a{color:#666666;}
+#copyright a:hover{color:#ffffff;}
+
+/* デザイン全般設定 */
+body#main_page{overflow:hidden;}
+.ta{background:#ffffff url(bg01.jpg) no-repeat 0% 70px;}
+.ta1{background-color:#000000;}
+.ta2{border-right:1px dashed #666666;}
+#scroll{
+overflow:auto;
+height:140px;
+background-image:url(bg02.png);
+margin:15px 10px;
+padding:5px;
+}
+* html #scroll{filter:alpha(opacity=70);background-color:#000000;}
+
+/* 見出し設定 */ 
+h1{
+font-size:21px;
+color:#ffffff;
+font-weight:normal;
+margin:0px;
+padding:0px 0px 0px 10px;
+}
+h1:first-letter{color:#00aaaa;}
+h2{
+font-size:10px;
+color:#666666;
+text-align:right;
+border-top:1px solid #000000;
+border-bottom:2px solid #000000;
+margin:20px 25px 0px 15px;
+padding:4px 20px;
+}
+h3{
+font-size:10px;
+color:#0099aa;
+background:#000000 url(h3.gif) no-repeat 2% 50%;
+margin:8px 400px 5px 15px;
+padding:7px 15px;
+}
+h4{
+font-size:10px;
+color:#00aaaa;
+text-align:right;
+border-bottom:1px dashed #666666;
+margin:0px;
+padding:1px 5px;
+}
+
+/* メニュー設定 */ 
+#menu{
+font-size:11px;
+letter-spacing:2px;
+}
+#menu ul{
+list-style-type:none;
+background-image:url(bg02.png);
+margin:15px 10px 0px 10px;
+padding:20px 0px 15px 30px;
+}
+#menu li{
+display:inline;
+height:25px;
+}
+#menu li a{
+display:inline;
+color:#ffffff;
+background:url(menu.gif) no-repeat 0% 50%;
+padding:6px 12px;
+}
+#menu li a:hover{
+color:#0099ff;
+}
+* html #menu ul{filter:alpha(opacity=70);width:100%;background-color:#000000;}
+
+/* テキスト設定 */ 
+.text1{
+line-height:20px;
+padding:10px 40px 30px 30px;
+}
+.text2{
+color:#ffffff;
+line-height:18px;
+padding:3px 8px 20px 5px;
+}
+
+/* リンクページの設定 */ 
+dl.banner{margin:0px 0px 15px 0px;}
+dl.banner dt{float:left;margin:0px 5px 0px 0px;}
+dl.banner dd{margin:-2px 0px 0px 0px;}
+
+/* その他要素 */ 
+em{font-style:normal;font-weight:bold;}
+strong{color:#33aaaa;background-color:#ccffff;}
+ins{text-decoration:none;border-bottom:1px solid #33aaff;}
+del{text-decoration:line-through;}
